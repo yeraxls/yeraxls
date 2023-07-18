@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { FormModels } from 'src/app/Models/FormModels';
+import { CalculoServiceService } from 'src/app/Services/calculo-service.service';
 
 @Component({
   selector: 'app-results',
@@ -7,21 +9,19 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./results.component.css']
 })
 export class ResultsComponent {
-  id: string = ""
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private calculoService: CalculoServiceService) {}
   ngOnInit(): void {
-    this.id = this.route.snapshot.paramMap.get('id')??""
-    this.calcular()
+    let cups = this.route.snapshot.paramMap.get('id')??""
+    cups? this.calcular(cups) : this.calcularForm()
   }
-  calcular(){
-    if(this.id)
-      console.log(this.id)
-    else
-      this.calcularForm()
+  calcular(cups: string){
+    this.calculoService.calcularPorCups(cups) 
   }
   calcularForm(){
-    let form = sessionStorage.getItem("form")
-    console.log("calculo por formularios")
-    console.log(form)
+    let form : FormModels = JSON.parse(sessionStorage.getItem("form")??"")
+    this.calculoService.calcularForm(form)
+  }
+  contratar(){
+    console.log("Contratar con nosotros")
   }
 }
