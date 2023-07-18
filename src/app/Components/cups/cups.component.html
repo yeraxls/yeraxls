@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div style="background-color: #eee; padding: 1rem;">
+        Introduce aquí tu CUPS: <input  [(ngModel)]="cups"/>
+        <br/>
+        cups numero entre 20 y 22 caracteres en la factura.
+        <br/>
+        cups numero entre 20 y 22 caracteres en la factura.
+        <br/>
+        <button class="col-5" style="margin-right: 15%;" (click)="calcular()"
+        [routerLink]="['/results', cups]">Calcular tu Precio</button>
+        <button class="col-5" [routerLink]="['/form']">Calcular por factura</button>
+    </div>
+  </div>
