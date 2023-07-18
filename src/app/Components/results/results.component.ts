@@ -21,7 +21,7 @@ export class ResultsComponent {
   }
   calcularForm(){
     let form = sessionStorage.getItem("form")
-    console.log("calculo por formulario")
+    console.log("calculo por formularios")
     console.log(form)
   }
 }
