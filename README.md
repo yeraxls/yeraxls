@@ -21,3 +21,4 @@ It will be three projects at one
   <li>-third project (password encript, generate...)</li>
 </ul>
 when its finished the repository will be public
+https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors.html
