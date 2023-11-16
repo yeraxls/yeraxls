@@ -21,3 +21,4 @@ It will be three projects at one
   <li>-third project (password encript, generate...)</li>
 </ul>
 when its finished the repository will be public
+https://www.thepowermba.com/es/blog/uml-el-lenguaje-universal-para-el-modelado-de-sistemas#:~:text=El%20UML%20(Unified%20Modeling%20Language,lengua%20universal%20para%20los%20desarrolladores.
