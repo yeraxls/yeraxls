@@ -1,23 +1,28 @@
-Hi 👋, I’m @yeraxls
-<br />
+# Hi 👋
+## My name is Yeray López
+## Im Software Developer
 👀 I’m interested in improve developing
 <br />
-I speak spanish and a little english (I am learning xD)
+🌱 I am currently studying Python, ML and react
 <br />
-🌱 I’m currently learning .Net and Angular
-<br />
-💞️ I’m looking to collaborate on any project with .Net or/and Angular, but Java is fine too.
-<br />
-- 📫 How to reach me:
+
+# 📫 How to reach me:
 <ul>
   <li>Discord: yerax#1759 </li>
-  <li>mail: yerayls91@gmail.com </li>
+  <li>📧 mail: yerayls91@gmail.com </li>
 </ul>
-Actually, i'm working at a new solution, based in .Net and Angular.
-It will be three projects at one
+
+<br />
+
+# 🧰 Tech Stack
 <ul>
-  <li>first project(Login, experience and similar)</li>
-  <li>second project (email managament)</li>
-  <li>-third project (password encript, generate...)</li>
+<li>.Net</li>
+<li>Python</li>
+<li>Angular</li>
+<li>React</li>
+<li>JavaScript</li>
+<li>TypeScript</li>
 </ul>
-when its finished the repository will be public
+
+### Readme under construction, be patient
+![alt text](./images/obras-programadas.png)
