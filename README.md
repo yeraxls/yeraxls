@@ -3,9 +3,9 @@
 
 - 🔭 I’m currently working on [Algorithm in Python](https://github.com/yeraxls/algorithm)
 
-- 🌱 I’m currently learning **Python and software architecture**
+- And [solid-and-pattern-design](https://github.com/yeraxls/solid-and-pattern-design)
 
-- 🔭 And [solid-and-pattern-design](https://github.com/yeraxls/solid-and-pattern-design)
+- 🌱 I’m currently learning **Python and software architecture**
 
 - 📫 How to reach me **yerayls91@gmail.com**
 
