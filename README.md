@@ -39,6 +39,10 @@
     <td>Nuget for generate and validate DNIs from Spain</td>
   </tr>
   <tr>
+    <td><a target="_blank" href="https://github.com/yeraxls/AITaxiFarePrediction">AITaxiFarePrediction</a></td>
+    <td>Basic AI for Taxi fare Prediction</td>
+  </tr>
+  <tr>
     <td><a target="_blank" href="https://github.com/yeraxls/YerayHalterofilia">Halterofilia</a></td>
     <td>Weight liftinng dedicated Api with jwt and basic log sistem</td>
   </tr>
